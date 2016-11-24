@@ -1,1 +1,75 @@
-/* Tu CSS va aqui */
+body{
+
+
+}
+header{
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+header img{
+  width: 150px;
+  height: 40px;
+
+}
+header .nav{
+  position: relative;
+  bottom:52px;
+}
+header ul li{
+float: right;
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 15px;
+  color:#9c9f9b;
+}
+/*-----------------------------contenido*/
+.contenido{
+  background: rgb(128, 128, 128);
+  height: 350px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: #fff;
+}
+.contenido .texto{
+  width: 40%;
+  padding-top: 20px;
+
+}
+.contenido .formulario{
+  width: 200px;
+  float: right;
+  position: relative;
+  bottom: 260px;
+  border-radius: 10px;
+  background: rgb(154, 154, 154);
+  padding: 10px 20px;
+  text-align: center;
+
+}
+.contenido h3{
+font-size: 40px;
+
+}
+
+.contenido label{
+  padding: 10px;
+}
+.contenido .formulario input{
+margin-bottom: 10px;
+  width: 180px;
+  padding: 5px 5px;
+}
+.formulario button{
+  width: 190px;
+  padding: 5px;
+  background: rgb(62, 176, 247);
+  border: none;
+  color: #fff;
+
+}
+footer{
+margin-left: 300px;
+margin-right: 300px;
+color:#a1a8a7;
+}
