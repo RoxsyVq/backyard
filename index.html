@@ -2,40 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Backyard: Descubriendo Breakpoints</title>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header>
-	<img src="image/logo2.png" alt="">
-	<div class="nav">
-	<ul>
-		<li>CONTACT</li>
-		<li>FEATURES</li>
 
-	</ul>
+<header>
+	<div class="container">
+		<img src="image/logo2.png" class="logo" alt="Logotipo">
+		<ul class="lista-menu">
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
 	</div>
 </header>
+
+<!------------------------------------------ fin---- header -->
+
 <section class="contenido">
-	<div class="texto">
-		<h3>Beautiful High Converting Landing Page</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dicta
-			placeat modi quos possimus repudiandae suscipit non voluptatum rem
-	.</p>
+	<div class="container clearfix">
+		<div class="col-1">
+			<h1>Beautiful High Converting Landing Page</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nam explicabo minus, dolor nostrum, dolorum, labore laborum maiores neque tempora asperiores assumenda itaque sit praesentium placeat, ducimus rem! Eius, alias!</p>
+		</div>
+		<div class="col-2">
+			<div class="formulario">
+				<h3>Get Started</h3>
+				<form action="#">
+
+						<input type="text" name="nombre" placeholder="Tu Nombre">
+
+
+						<input type="text" name="email" placeholder="Email">
+
+						<button type="submit">SUBSCRIBE</button>
+
+				</form>
+			</div>
+		</div>
 	</div>
-	<div class="formulario">
-		<form action="">
-			<label for="texto">GET STARTED</label><br>
-			<input type="nombre" placeholder="Tu Nombre" > <br>
-			<input type="email" placeholder="Email"><br>
-			<button type="button" name="button">SUBSCRIBE</buEtton>
-		</form>
-	</div>
+
 </section>
 <footer>
-	All Rights Reserved nK
+	<p >All Rights Reserved nK</p>
 </footer>
+
 </body>
 </html>
